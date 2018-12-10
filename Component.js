@@ -1,0 +1,1 @@
+sap.ui.define(["sap/ui/core/UIComponent","sap/ui/Device","my/ui5app/model/models","sap/m/routing/Router","sap/ui/core/ComponentSupport"],function(e,t,i){"use strict";return e.extend("my.ui5app.Component",{metadata:{manifest:"json"},init:function(){e.prototype.init.apply(this,arguments);this.getRouter().initialize();this.setModel(i.createDeviceModel(),"device")}})});
